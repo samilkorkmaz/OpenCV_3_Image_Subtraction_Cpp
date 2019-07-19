@@ -98,7 +98,7 @@ int main(void) {
 			}
 		}
 
-		//show satistactory convex hulls: TODO make this into a function and use it also in above contour showing section.
+		//show satistactory convex hulls:
 		convexHullsContours.clear();
 		for (auto &blob : blobs) {
 			convexHullsContours.push_back(blob.contour);
